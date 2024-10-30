@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+}
+
+nav{
+    padding: 3vw 10vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+#Lnav{
+    display: flex;
+    gap: 30px;
+}
+
+nav a{
+    display: inline-block;
+    font-weight: 700;
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+}
+
+/* Navigation bar is done here */
+
+
+
+#Fpage{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 15vw;
+    padding: 0 10vw;
+    /* background-color: brown; */
+    
+}
+#sustain{
+    width: 12vw;
+    height: 100px;
+}
+
+#sustain p{
+    text-transform: capitalize;
+    font-size: 12px;
+    font-weight: 400;
+    opacity: 0.5;
+    margin: 8px 0;
+}
+
+#sustain #sustainImg{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 15vw;
+}
+#sustainImg img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Sustainability is done here */
+
+#GreenSphere{
+    position: relative;
+    width: 27vw;
+    min-height: 37vw;
+}
+
+#imgntext{
+    width: fit-content;
+    height: fit-content;
+}
+
+#GreenSphere #headings{
+    position: absolute;
+    top: -15%;
+    left: -20%;
+}
+
+#GreenSphere img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+#GreenSphere p{
+    width: 35%;
+    letter-spacing: -0.08vw;
+    line-height: -.1;
+    
+}
+
+#headings h1{
+    letter-spacing: -.3vw;
+    line-height: 0.8;
+    font-size: 12vh;
+    font-weight: 500;
+}
+
+#visit{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    padding-bottom: 8vw;
+
+}
+#circleVisit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px solid rgb(145, 145, 145);
+    width: 50px;
+    height: 50px;
+    /* background-color: bisque; */
+}
+
+#circleVisit i{
+    color:rgb(145, 145, 145);
+
+}
+
+#visit h6{
+    font-size: .9vw;
+    color: rgb(145, 145, 145);
+    
+}
+
+/* complete First Page here */
+
+#motive{
+    padding: 3vw 10vw;
+
+}
+
+#motive h5{
+    text-transform:uppercase;
+    color: rgb(145, 145, 145);
+
+}
+
+#motive p{
+    line-height: 3vw;
+    margin: 30px 55px;
+    width: 85%;
+    text-align: right;
+    font-size: 1.3vw;
+    font-weight: 500;
+}
+
+#motive span{
+    display: inline-block;
+    border-radius: 100px;
+    margin: 0 5px;
+    margin-bottom: -15px;
+    background-color: red;
+}
+
+#firstSpan{
+    background-image: url(img/earth\ \(1\).webp);
+    background-size: cover;
+    width: 5vw;
+    height: 3vw;
+}
+
+#secondSpan{
+    background-image: url(img/future\ in\ our\ hands\ \(1\).webp);
+    background-size: cover;
+    width: 6vw;
+    height: 3vw;
+    background-position: 0% 45%;
+}
+
+#thirdSpan{
+    background-image: url(img/leaves\(1\).webp);
+    background-size: cover;
+    width: 4.5vw;
+    height: 3vw;
+}
+
+#pic{
+    display: flex;
+    justify-content: space-between;
+    padding: 4vw;
+    padding-left: 17vw;
+    padding-right: 18vw;
+
+
+}
+
+#firstPic{
+    width: 15vw;
+    height: 25vw;
+    
+}
+
+#firstPic img{
+    width: 100%;
+    height: 100%;
+}
+
+#firstPic h1, #secondPic h1{
+    letter-spacing: -.1vw;
+    font-size: 2vw;
+    font-weight: 500;
+    margin-top: .4vw;
+}
+#firstPic p, #secondPic p{
+    margin-top: .7vw;
+    font-weight: 400;
+    font-size: 1vw;
+    opacity: .5;
+}
+
+#secondPic{
+    width: 22vw;
+    text-align: right;
+
+}
+
+#secondPic img{
+    width: 100%;
+    height: 30vw;
+    
+}
+
+/* Our motive is Completed here */
+
+
+#banner{
+    width: 100%;
+    margin-top: 2vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+#bannerImg{
+    width: 65%;
+    height: 65vh;
+    background-color: yellowgreen;
+}
+#bannerImg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#bannerTxt{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    width: 35%;
+    height: 80vh;
+}
+#bannerTxt h1{
+    letter-spacing: -.1vw;
+    line-height: 1;
+    font-size: 2vw;
+    font-weight: 500;
+    padding-left: 5vw;
+    padding-right: 6vw;
+}
+
+#bannerTxt p{
+    padding:1.5vw 5vw;
+    font-weight: 400;
+    font-size: 1vw;
+    opacity: .5;
+}
+
+/* end of body here */
+
+/* footer part */
+
+#footer{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#footer video{
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+   
+}
+
+#footerTxt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 999;
+}
+#footerTxt h1{
+    padding-bottom: .8vw;
+    
+}
+#footerTxt button{
+    padding: .7vw 1vw;
+    border-radius: 100px;
+    border: 1px solid rgb(145, 145, 145);
+    color: rgb(0, 0, 0) ;
+    background-color: white;
+    font-size: .6vw;
+    font-weight: 600;
+}
