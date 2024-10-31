@@ -339,7 +339,7 @@ nav a{
 
 /* making website responsive */
 
-@media (max-width : 600px) {
+@media (max-width : 768px) {
 
     #sustain h2,#sustain h3 {
         font-size: 2vw;

@@ -100,6 +100,6 @@ document.querySelector("#footerTxt button")
 })
 
 var Video = document.querySelector("#footer video");
-if (window.innerWidth <= 600) { 
+if (window.innerWidth <= 768) { 
     Video.src = "video/footer video phone.mp4";
 }
