@@ -8,32 +8,35 @@ const scroll = new LocomotiveScroll({
 
 //Gsap animation
 
-gsap.from(".HeadLinks",{
-    stagger : .1,
-    y : 10,
-    duration : 1,
-    ease : "power4.out",
-    opacity: 0,
+Shery.mouseFollower();
+Shery.makeMagnet(".magnet");
 
-})
+// gsap.from(".HeadLinks",{
+//     stagger : .1,
+//     y : 10,
+//     duration : 1,
+//     ease : "power4.out",
+//     opacity: 0,
 
-Shery.textAnimate("#headings h1", {
+// })
+
+// Shery.textAnimate("#headings h1", {
    
-    style: 2,
-    y: 10,
-    delay: 0.3,
-    duration: 2,
-    ease: "cubic-bezier(0.23, 1, 0.320, 1)",
-    multiplier: 0.1,
-  });
+//     style: 2,
+//     y: 10,
+//     delay: 0.3,
+//     duration: 2,
+//     ease: "cubic-bezier(0.23, 1, 0.320, 1)",
+//     multiplier: 0.1,
+//   });
 
-gsap.from(".fanim",{
-    y:50,
-    stagger:.1,
-    opacity:0,
-    ease: Expo,
-    duration:1,
-})
+// gsap.from(".fanim",{
+//     y:50,
+//     stagger:.1,
+//     opacity:0,
+//     ease: Expo,
+//     duration:1,
+// })
 
 Shery.imageEffect("#imgntext img", {
     style: 5, //Select Style
@@ -95,3 +98,8 @@ document.querySelector("#footerTxt button")
         ease:Power3
     })
 })
+
+var Video = document.querySelector("#footer video");
+if (window.innerWidth <= 600) { 
+    Video.src = "video/footer video phone.mp4";
+}

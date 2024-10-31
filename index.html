@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Green Sphere</title>
-    <link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css" />
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
     <link rel="stylesheet" href="style.css">
 </head>
@@ -15,12 +15,12 @@
     <div id="main">
         <div id="home">
             <nav>
-                <div id="Lnav">
+                <div class="magnet" id="Lnav">
                     <a class="HeadLinks" href="#">Home</a>
                     <a class="HeadLinks" href="#">Pricing</a>
                     <a class="HeadLinks" href="#">Products</a>
                 </div>
-                <div id="Rnav">
+                <div class="magnet" id="Rnav">
                     <a class="HeadLinks" href="#">Our Journey</a>
                 </div>
             </nav>
@@ -32,7 +32,7 @@
                     <p>Sustainability is about meeting our present needs without compromising the ability of future
                         generations to meet theirs.</p>
                     <div id="sustainImg">
-                        <img src="img/GreenBulb.webp" alt="Sustainability Image">
+                        <img class="magnet" src="img/GreenBulb.webp" alt="Sustainability Image">
                     </div>
                 </div>
 
@@ -42,7 +42,7 @@
                         <h1>Sphere</h1>
                     </div>
                     <div id="imgntext">
-                        <img src="img/main.webp" alt="img">
+                        <img class="magnet" src="img/main.webp" alt="img">
                         <p>GreenSphere: Small Choices, Big Impact for a Greener Tomorrow.</p>
                     </div>
                 </div>
@@ -67,12 +67,12 @@
         </div>
         <div id="pic">
             <div class = "midanimation" id="firstPic">
-                <img src="img/hand planting-min(1).webp" alt="Synergy">
+                <img class="magnet" src="img/hand planting-min(1).webp" alt="Synergy">
                 <h1>Synergy</h1>
                 <p>GreenSphere: Harnessing the synergy of small actions for a sustainable future.</p>
             </div>
             <div class = "midanimation" id="secondPic">
-                <img src="img/secondpic(1).webp" alt="">
+                <img class="magnet" src="img/secondpic(1).webp" alt="">
                 <h1>Harmony</h1>
                 <p>GreenSphere: Creating harmony between our daily choices and the Earth's wellbeing.</p>
             </div>
@@ -94,26 +94,29 @@
         </div>
 
         <div id="footer">
-            <video src="video/footer video 3.mp4" autoplay muted loop></video>
+            <video src="video/footer video 3(2).mp4" autoplay muted loop></video>
             <div id="footerTxt">
                 <h1>Think Of Future</h1>
-                <button>Join The Movement</button>
+                <button class="magnet">Join The Movement</button>
 
             </div>
         </div>
     </div>
 
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
-        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <!-- Scroll Trigger is needed for Scroll Effects -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <!-- Three.js is needed for 3d Effects -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.155.0/three.min.js"></script>
+     
+    
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.160.0/three.min.js" ></script> -->
+     
     <!-- ControlKit is needed for Debug Panel -->
     <script src="https://cdn.jsdelivr.net/gh/automat/controlkit.js@master/bin/controlKit.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
-    <script  type="text/javascript"  src="https://unpkg.com/sheryjs/dist/Shery.js"></script>
+    <!-- <script  type="text/javascript"  src="https://cdn.jsdelivr.net/npm/sheryjs/dist/Shery.js"></script> -->
+     <script src="https://unpkg.com/sheryjs/dist/Shery.js"></script>
     <script src="script.js"></script>
 </body>
 

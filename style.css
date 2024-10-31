@@ -117,6 +117,7 @@ nav a{
     font-weight: 500;
 }
 
+
 #visit{
     display: flex;
     gap: 15px;
@@ -333,4 +334,108 @@ nav a{
     background-color: white;
     font-size: .6vw;
     font-weight: 600;
+}
+
+
+/* making website responsive */
+
+@media (max-width : 600px) {
+
+    #sustain h2,#sustain h3 {
+        font-size: 2vw;
+    }
+    
+    #sustain p{
+        text-transform: capitalize;
+        font-size: 1vw;
+        font-weight: 400;
+        opacity: 0.5;
+        margin: 8px 0;
+    }
+    #GreenSphere #headings{
+        position: absolute;
+        top: -15%;
+        left: -35%;
+    }
+    #GreenSphere p{
+        font-size: 1.5vw;
+        
+    }
+    #headings h1{
+        letter-spacing: -.3vw;
+        line-height: 0.8;
+        font-size: 4.5vh;
+        font-weight: 500;
+    }
+
+    #circleVisit{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        border: 1px solid rgb(145, 145, 145);
+        width: 20px;
+        height: 20px;
+        /* background-color: bisque; */
+    }
+
+    #circleVisit i{
+        font-size: 7px;
+    
+    }
+    
+    #visit h6{
+        font-size: 1.5vw;
+    }
+    #visit{
+        gap: 7px;
+    }
+
+    #motive h5{
+        font-size: 2vw;
+    }
+    #motive p{
+        margin: 30px 20px;
+        font-size: 1.8vw;
+    }
+
+    #motive span{
+        margin: 4 15px;
+        margin-bottom: -5px;
+    }
+
+    #firstPic p, #secondPic p{
+        font-size: 1.5vw;
+    }
+
+    #bannerImg{
+        width: 70%;
+        height: 20vh;
+        background-color: yellowgreen;
+    }
+
+    #bannerImg img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    #bannerTxt{
+        width: 30%;
+        height: 20vh;
+    }
+    #bannerTxt h1{
+        padding-left: 2vw;
+        padding-right: 10vw;
+    }
+    
+    #bannerTxt p{
+        padding:1vw 2vw;
+        font-weight: 400;
+        font-size: 1.5vw;
+        opacity: .5;
+    }
+    #footer video{
+        width: 100%;
+        padding-left: 1px;
+    }
 }
